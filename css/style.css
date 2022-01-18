@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+/* Entendendo sobre display Block e inline */
+
+
+h1{
+    margin-top: auto;
+    width: 150px;
+    height: 120px;
+    border: 2px solid blue;
+}
+div {
+    width: 100px; 
+    height: 100px;
+    border: 1px solid rgba(255, 0, 0, 0.863);
+    margin: 10%;
+    padding: 20px;
+ }
+div.right,section{
+    border: 1px solid rgb(255, 115, 0);
+    width: 100px;
+    height: 100px;
+    margin: auto 8px 4px 10px;
+
+}
