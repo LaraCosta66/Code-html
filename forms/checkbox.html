@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+</head>
+<body>
+    
+
+<!--
+    caixas que podem ser marcadas
+    seleciona um avalor para ser enviado
+    se nao selecionado, nao sera enviado
+
+
+
+    ATRIBUTOS:
+    -globais
+    -value
+    -checked
+
+-->
+
+
+<label for="subscribe">Receber notificacoes</label>  
+<input type="checkbox" name="subscribe" id="subscribe">
+
+
+
+<!--
+    MULTIPLOS VALORES
+-->
+<fieldset>
+    <Legend>Escolha um pacote de viagem</Legend>
+    <div>
+        <input id="Alagoas" type="checkbox" name="viagens" value="AL" checked>
+        <label for="">Maceió</label>
+    </div>
+    <div>
+        <input id="SaoPaulo" type="checkbox" name="viagens" value="SP" checked>
+        <label for="">São Paulo</label>
+    </div>
+    <div>
+        <input id="RiodeJaneiro" type="checkbox" name="viagens" value="RJ" checked>
+        <label for="">Rio de Janeiro</label>
+
+    </div>
+    <div>
+        <input id="Riograndesul" type="checkbox" name="viagens" value="RS" checked>
+        <label for="">Porto Alegre</label>
+    </div>
+
+
+    
+</fieldset>
+
+</body>
+</html>
