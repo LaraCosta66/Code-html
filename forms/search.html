@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search e RANGE</title>
+</head>
+<body>
+    
+<datalist id="searchterms">
+    <option>Mac</option>
+    <option>Windows</option>
+    <option>Linux</option>
+
+</datalist>
+
+<form action="">
+
+<input type="search"  name="q" list="searchterms"
+placeholder="Digite seu termo aqui"
+size="29"
+aria-label="Campo de pesquisa: Digite seu termo de busca"> <!--ACESSIBILIDADE-->
+
+<button>Pesquisar</button>
+
+</form>
+<!--
+
+    Range
+-->
+
+<input type="range" min="10" max="100" step="1">
+
+</body>
+</html>
